@@ -1,0 +1,83 @@
+.container{
+    background-color: lightgrey;
+    margin: 2% 5%;
+}
+
+.content{
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+.head{
+display: flex;
+justify-content: space-between;
+}
+.navs a ,.jumbo-content .btn{
+    display: inline-block;
+    padding: 15px;
+    margin: 7px 4px 0 0;
+}
+.highlighter{
+    border-bottom: 0.5px solid gray;
+    margin-bottom: 22px;
+}
+
+.navs a.is-selected{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px;
+}
+
+.jumbotron{
+    background-color: rgb(150, 127, 127);
+    border-radius: 6px;
+    margin-bottom: 10%;
+}
+
+.jumbo-content{
+    padding: 32px 12px;
+}
+.jumbotron .jumbo-content .btn{
+    display: block;
+}
+.jumbo-content .heading{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.navs a:hover{
+    cursor: pointer;
+}
+.btn-success {
+    background-color: green;
+    border-radius: 6px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-yay{
+    background-color: blueviolet;
+    border-radius: 6px;
+}
+.sign-up{
+    width: 30%;
+}
+.modal{
+    width: 40%;
+}
+
+.jumbotron .jumbo-content .btn.sign-up , .jumbotron .jumbo-content .btn.modal{
+    margin: 5px auto;
+    color: white;
+}
+
+.main-heading{
+    display: flex;
+    margin-bottom: 30px;
+}
+.left-content , .right-content{
+    flex-direction: column;
+    text-align: left;
+}
+.left-content h4, .right-content h4{
+    margin-bottom: 0;
+}
