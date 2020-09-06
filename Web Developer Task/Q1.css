@@ -1,0 +1,33 @@
+.container{
+    background-color: pink;
+    margin: 0 5%;
+}
+
+.container .form{
+    margin: 2% 5%;
+}
+.form input , .form select{
+    width:100%;
+    border: none;
+}
+.form .el {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.form .el .input {
+    border: 1px solid;
+    display: inherit;
+    width: 300px;
+}
+
+.form .el .input i{
+    width: 26px;
+    text-align: center;
+    border-right: 1px solid;
+    padding: 4px 5px;
+}
+.button {
+    text-align: center;
+}
