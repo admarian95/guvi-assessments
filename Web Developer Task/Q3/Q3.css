@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+.tile{
+    width: 400px;
+    border: 1px solid grey;
+}
+.tile .img{
+    height: 250px;
+    background-color: black;
+}
+
+.description{
+    margin-left: 15px;
+}
+
+a{
+display: inline-block;
+padding: 5px;
+background-color: green;
+color: white;   
+margin-right: 20px;
+border-radius: 6px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
